@@ -4,8 +4,10 @@
   "description": "A React component for viewing a tweet-id dataset.",
   "main": "dist/tweet-viewer.js",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+  "start": "webpack-dev-server --config webpack.dev.js",
+  "build": "webpack --config webpack.prod.js",
+  "build:demo": "webpack --config webpack.demo.js",
+  "deploy": "npm run build:demo && gh-pages -d gh-pages"
   },
   "repository": {
     "type": "git",
