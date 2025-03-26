@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/docnow/tweet-viewer/issues"
   },
-  "homepage": "https://github.com/docnow/tweet-viewer#readme",
+  "homepage": "https://digitalarchivo.github.io/",
   "peerDependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.8.2",
